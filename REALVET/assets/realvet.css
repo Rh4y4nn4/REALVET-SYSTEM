@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+     
+      .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+     
+      .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+     
+      .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+     
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+     
+      .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+     
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+     
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+     
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+     
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+     
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+     
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+     
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+     
+      .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+     
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+     
+      .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+     
+      .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+     
+      .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+     
+    }
+
+
+    body{
+        background-color: #ffffff;
+        height: 100vh;
+    }
+    
+    
+    .interface{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    
+    
+    .flex{
+        display: flex;
+    }
+    
+    
+    .btn-contato button{
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #2d37c9;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .2s;
+        }
+    
+    
+    button:hover, form .btn-enviar input:hover{
+        box-shadow: 0px 0px 8px #6e82f3;
+        transform: scale(1.05);
+    }
+    
+    
+    
+    
+    
+    /* estilo cabeçalho */
+    header{
+        padding: 40px 4%;
+    
+    
+    }
+    
+    
+    header > .interface{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    header a{
+        color: #7d7d7d;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    
+    header a:hover{
+        color: #2d37c9;
+        transform: scale(1.05);
+    }
+    
+    
+    header nav ul{
+        list-style-type: none;
+    }
+    
+    
+    header nav ul li{
+        display: inline-block;
+        font-size: 20px;
+        padding: 0 40px;
+    }
+    
+    /* FIM estilo cabeçalho */
+    
+    /*estilo sobre*/
+section.sobre{
+    padding: 80px 4%;
+}
+
+
+section.sobre .flex{
+align-items: center;
+gap: 60px;
+}
+
+
+.sobre .txt-sobre{
+    color: #000000;
+}
+
+
+.sobre .txt-sobre p{
+    font-size: 20px;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+
+.sobre .txt-sobre h2{
+    font-size: 45px;
+}
+
+
+.sobre .txt-sobre h2 span{
+    color: #2d37c9;
+    display: block;
+}
+/*FIM estilo sobre*/
+
+
+/*estilo visão missão e valores*/
+section.especialidades{
+    padding: 0px 4%;
+}
+
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+
+.especialidades h2{
+    font-size: 45px;
+}
+
+.especialidades h2 span{
+    color: #2d37c9;
+    display: inline-block;
+}
+
+
+.especialidades .especialidades-box{
+    color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: .2s;
+}
+
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #2d37c9;
+}
+
+
+.especialidades .especialidades-box h3{
+font-size: 35px;
+margin: 15px 0;
+}
+
+.especialidades .especialidades-box p{
+    font-size: 20px;
+    margin: 15px 0;
+    }
+/*FIM estilo visão missão e valores*/
+
+
+
+/*estilo formulário*/
+.form-agendar-consulta h2{
+    padding: 50px 450px;
+    font-size: 45px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    background-color: #2d37c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2d37c9;
+}
+/*FIM estilo formulário*/
+
+
+/* ESTILO RODAPÉ*/
+footer{
+    padding: 35px 4%;
+    box-shadow: 0 0 40px 10px  #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.btn-social i{
+    font-size: 20px;
+    color: #2d37c9;
+    border: none;
+}
+
+.borda{
+    border-top: 2px solid #2d37c9;
+}
+
+footer .line-footer p i{
+color: #000000;
+font-size: 20px;
+}
+
+footer .line-footer p a{
+    color: #000000;
+}
+/* FIM ESTILO RODAPÉ*/
+
+/* Estilos para o carousel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    height: 400px; /* Altura do carousel */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 8px;
+}
+
+#carousel h2{
+    padding: 50px ;
+    font-size: 45px;
+}
+
+#carousel h2 span{
+    color: #2d37c9;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
